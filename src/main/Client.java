@@ -36,8 +36,10 @@ private final String host;
             System.out.println("Message is sent to server");
 
             DataInput dataInput  =  new DataInputStream(inputStream);
-
-            int size = dataInput.readInt();
+            int sizeInputData = dataInput.readInt();
+            byte [] rcvData = new byte[sizeInputData];
+            dataInput.readFully(rcvData);
+            return (new String(rcvData));
 
         } catch (UnknownHostException e) {
             throw new RuntimeException(e);
