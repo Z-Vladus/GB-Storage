@@ -1,4 +1,4 @@
-package main;
+package Lesson1;
 
 import java.io.*;
 import java.net.ServerSocket;

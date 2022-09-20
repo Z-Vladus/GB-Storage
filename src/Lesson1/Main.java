@@ -20,7 +20,7 @@
 * */
 
 
-package main;
+package Lesson1;
 
 import java.util.Scanner;
 

@@ -1,10 +1,9 @@
-package main;
+package Lesson1;
 
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
-import java.util.Scanner;
 
 public class Client {
 
