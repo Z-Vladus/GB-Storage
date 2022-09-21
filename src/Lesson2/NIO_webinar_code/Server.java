@@ -1,4 +1,4 @@
-package Lesson2.NIO;
+package Lesson2.NIO_webinar_code;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

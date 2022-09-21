@@ -1,6 +1,5 @@
-package Lesson2.NIO;
+package Lesson2.NIO_webinar_code;
 
-import java.nio.channels.SelectionKey;
 import java.nio.channels.SocketChannel;
 
 public class ChannelReader {
