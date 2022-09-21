@@ -19,7 +19,7 @@ public class Client {
 
 
     public static void main(String[] args) {
-        Path path = Paths.get("D:\\_CLNT_Files\\temp.txt");
+        Path path = Paths.get("_CLNT_Files\\temp.txt");
         if (Files.exists(path)) {
             System.out.println("Файл существует, продолжаем");
 
